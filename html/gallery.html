@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-
+    ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+    crossorigin="anonymous">
+
+    <link rel="stylesheet" href="../css/style.css">
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <body>
+        <nav class="navbar">
+            <a href="../index.html">Home</a>
+            <a href="../html/facts.html">Careers</a>
+            <a href="../html/gallery.html">Library</a>
+            <a href="../html/videos.html">Authors</a> 
+            <a href="../my_website/html/contactus.html">Contact Us</a>
+            <button type="button" class="btn btn-primary position-relative">
+                Inbox
+                <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+                  99+
+                  <span class="badge text-bg-secondary">unread messages</span>
+                </span>
+            </button> 
+            <div class="container-fluid">
+                <form class="d-flex" role="search">
+                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+            </div>
+        </nav>
+    <header>
+    
+            <h1> Library </h1>
+            <p> search through these best selling books and find a book thats right for you!</p>
+    </header>
+    <div id="book-info">
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDf
+    L" crossorigin="anonymous">
+    </script>
+
+    <script src="../javascript/script.js"></script>
+
+    </body>
+    
+</head>
+<section>
+        <tr>
+            <td>
+                <div class="container text-center">
+                    <div class="row row-cols-auto">
+                        <div class="col">
+                <a href="https://www.wattpad.com/story/348604739-fish-shop-m-yanderes-x-f-reader">
+                <img src="../images/fishshop.png" alt="image of books" width="150"
+                height="200"> 
+                <p> fish shop </p>
+                </a>
+            </div>
+        </div>
+        </div>
+            </td>
+            <td>
+                <a href="https://www.easons.com/it-starts-with-us-colleen-hoover-9781398518209">
+                <img src="../images/itstartswithus.png" alt="image of books" width="150"
+                height="200">
+                <p>It Starts With Us</p>
+                </a>
+            </td>
+            <td>
+                <div class="text-center">
+                <a href="https://www.dubraybooks.ie/product/hike-life-pb-9781785303982">
+                <img src="../images/thehikelife.png" alt="image of books" width="150"
+                height="200">
+                <p>The Hike Life</p>
+                </a>
+                </div>
+            </td>
+        </tr>
+        <h3 id="DarkModetext">Dark Mode is OFF</h3>
+    <button onclick="darkMode()">Darkmode</button>
+    <button onclick="lightMode()">LightMode</button>
+    
+</section>
+</html>
